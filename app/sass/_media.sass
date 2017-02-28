@@ -1,0 +1,162 @@
+@media only screen and (max-width : 1080px)
+	.section-why
+		.icon-list
+			li
+				display: block
+				margin: 0 auto 80px auto
+				&:last-child
+					margin-bottom: 0
+	.social-opis
+		float: none !important
+		margin: 0 auto
+		text-align: center
+		margin-bottom: 20px
+	.social
+		float: none !important
+		text-align: center
+	.pricing
+		.tarif-list
+			&>li
+				width: 80%
+				display: block
+				margin: 0 auto 50px auto !important
+				&:last-child
+					margin-bottom: 0 !important
+
+
+@media only screen and (max-width : 980px)
+	header
+		.logo
+			padding-left: 20px
+	.slide-aria
+		text-align: center
+		float: none
+		margin: 0 auto
+		margin-bottom: 80px
+		.line
+			display: inline-block
+	.order-window
+		float: none
+		margin: 0 auto
+
+	// ПОКА НЕ РЕШУ ВОПРОС С ТАБАМИ
+	.tabs
+		display: none
+
+	.sub-section
+		padding: 50px 0
+		text-align: center
+		.sub-section-img
+			position: static
+			margin: 0 auto 50px auto
+			float: none
+			display: block
+		.sub-list
+			float: none
+			margin: 0 auto
+			.line
+				display: inline-block
+			.sub-list-item li
+				text-align: left
+				padding: 0 20px
+				i
+					margin: 0
+				.item-opis
+					max-width: 85%
+
+	.str-pic-sec
+		padding: 50px 0
+		.sec-opis
+			float: none
+			margin: 0 auto
+			text-align: center
+			.line
+				display: inline-block
+		img
+			position: static
+			float: none
+			display: block
+			margin: 50px auto 33px auto
+	.contact
+		padding: 50px 0
+		& .wrapper>p
+			margin-bottom: 50px
+	.contacts-form
+		.input
+			width: 80%
+			float: none
+			margin: 0
+			input:last-child
+				margin-bottom: 30px
+		textarea
+			width: 80%
+
+
+@media only screen and (min-width : 801px)
+	.main-nav
+		display: block !important
+
+@media only screen and (max-width : 800px)
+	header
+		.wrapper
+			overflow: visible
+	.toggle-mnu
+		display: block
+	.main-nav
+		display: none
+		position: absolute;
+		top: 70px;
+		z-index: 9999;
+		right: 0;
+		background: #000;
+		min-width: 300px;
+		text-align: right;
+		ul li
+			display: block
+			border-bottom: 1px rgba(255,255,255,.2) solid
+			padding: 0
+			a
+				padding: 0 23px
+				display: block
+	.section-why
+		padding: 50px 0
+		.wrapper>p
+			margin-bottom: 50px
+		.icon-list li
+			margin-bottom: 50px
+			i
+				font-size: 70px
+				border-width: 3px
+				&::before
+					width: 76px
+					height: 76px
+	.pricing
+		padding: 50px 0
+		.wrapper>p
+			margin-bottom: 50px
+		.tarif-list
+			li
+				width: 320px
+	.reviews
+		padding: 50px 0
+		h2
+			font-size: 32px
+		.reviews-list
+			li
+				float: none !important
+				display: block
+				margin: 0 auto 50px auto
+				&:last-child
+					margin-bottom: 0
+
+@media only screen and (max-width : 425px)
+	.order-window
+			max-width: 300px
+			h4
+				padding: 18px 10px
+	.str-pic-sec img,
+	.sub-section .sub-section-img
+			width: 90%
+	footer
+		.social a
+			padding: 0 10px
